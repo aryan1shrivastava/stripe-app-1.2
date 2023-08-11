@@ -1,0 +1,83 @@
+/* src/styles/SignIn.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0056b3; /* Nice blue color */
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-in-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.sign-in-form h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.sign-in-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.sign-in-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-form button:hover {
+  background-color: #0056b3;
+}
+
+.signin-link {
+  color: #007bff; /* Blue color for the link */
+  cursor: pointer;
+}
+
+/* .sign-in-form label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333333;
+  width: 100%; 
+} */
+
+.sign-in-form .remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align to the left */
+  margin-right: auto;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333333;
+}
+.sign-in-form .remember-me input {
+  display: flex;
+  align-items: first baseline;
+  margin-right: auto;
+}
